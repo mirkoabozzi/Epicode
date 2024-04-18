@@ -20,7 +20,8 @@ body {
 
 .content {
   height: 100%;
-}
+  margin-top: 20px;
+   }
 
 .icon {
   height: 8vh;
@@ -80,8 +81,21 @@ body {
   display: flex;
   align-items: center;
 }
-.content {
+.thumb img {
+    height: 250px;
+    margin-top: 50px;
+    
+}
+.epilogo {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: start;
+    height: 80px;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;  
+}
+.p {
+    margin 0;
 }
